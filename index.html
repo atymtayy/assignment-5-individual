@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Individual Work - Tasks 6-10</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Individual Practice (Tasks 6–10)</h1>
+    <p>Student: Atymtay Berdikhan | Group: MT-2503</p>
+
+    <!-- Task 6: Counter -->
+    <section id="task-6">
+        <h2>Task 6: Counter with Click Events</h2>
+        <div id="counter-value">0</div>
+        <button id="increase-btn">Increase</button>
+        <button id="decrease-btn">Decrease</button>
+        <button id="reset-btn">Reset</button>
+    </section>
+
+    <!-- Task 7: Live Text Preview -->
+    <section id="task-7">
+        <h2>Task 7: Live Text Preview</h2>
+        <label for="text-input">Type something:</label><br>
+        <input type="text" id="text-input" placeholder="Type here...">
+        <p id="preview-paragraph">Your text will appear here</p>
+        <p>Character count: <span id="char-count">0</span></p>
+        <button id="clear-btn">Clear</button>
+    </section>
+
+    <!-- Task 8: Change Image with Select -->
+    <section id="task-8">
+        <h2>Task 8: Image Selector</h2>
+        <label for="image-select">Choose an image:</label><br>
+        <select id="image-select">
+            <option value="img1">Option 1: Food 1</option>
+            <option value="img2">Option 2: Food 2</option>
+            <option value="img3">Option 3: Food 3</option>
+        </select>
+        <div class="image-box">
+            <img id="display-image" src="images/food1.jpeg" alt="Initial food item" width="250">
+            <p id="image-caption">Caption: Food Item 1</p>
+        </div>
+    </section>
+
+    <!-- Task 9: Keyboard Events -->
+    <section id="task-9">
+        <h2>Task 9: Keyboard Events</h2>
+        <label for="key-input">Focus and press keys (Enter/Escape):</label><br>
+        <input type="text" id="key-input" placeholder="Type and press Enter...">
+        <p id="key-status">Key pressed: None</p>
+        <p id="key-result">Result: </p>
+    </section>
+
+    <!-- Task 10: Mouse and Focus Events -->
+    <section id="task-10">
+        <h2>Task 10: Mouse and Focus Events</h2>
+        <div id="focusable-card" tabindex="0">Interactive Card (Focus or Hover me)</div>
+        <p id="card-instruction">Hover over the card with mouse or focus it using Tab key.</p>
+    </section>
+
+    <script src="script.js" defer></script>
+</body>
+</html>
